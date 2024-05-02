@@ -44,9 +44,7 @@ const icon = darkModeBtn.querySelector('i');
 
 darkModeBtn.addEventListener('click', () => {
   icon.classList.add('rotate-icon');
-
-  // Remove the rotation class after it completes
   setTimeout(() => {
     icon.classList.remove('rotate-icon');
-  }, 750); // 500ms is the duration of the animation
+  }, 750);
 });
